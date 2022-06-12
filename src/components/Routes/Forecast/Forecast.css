@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'roboto', sans-serif;
+}
+
+.forecast{
+  background-image: linear-gradient(180deg, #532DA4 25.41%, #140633 100%);
+  width: 375px;
+  height: 811.59px;
+}
+
+.backButton{
+position: relative;
+left: 8%;
+top: 5%;
+}
+
+.currentWeather{
+  display: flex;
+  justify-content: center;
+  width: 312px;
+  height: 216px;
+  margin: 20% auto 8% auto;
+  background: linear-gradient(105.11deg, #D06CFF 11.44%, rgba(135, 58, 171, 0.94) 110.54%);
+  box-shadow: 5.49343px 18.3114px 27.4672px #7B2BA0;
+  backdrop-filter: blur(45.7786px);
+  border-radius: 36.6229px;
+}
+
+.currentLeft{
+  width: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.currentRight{
+  width: 60%;
+  display: flex  ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weeklyWeather {
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  Width: 312px;
+  Height : 347px;
+  top : 43%;
+  left: 8%;
+  background: linear-gradient(105.11deg, #D06CFF 11.44%, rgba(135, 58, 171, 0.94) 110.54%);
+  box-shadow: 5.49343px 18.3114px 27.4672px #7B2BA0;
+  backdrop-filter: blur(45.7786px);
+  border-radius: 36.6229px;
+  font-size: 12px;
+}
+
+.weekly{
+  color: #FFF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.currentStatsTemp{
+  color: #FFF;
+  font-style: normal;
+  padding-left: 20px;
+  font-weight: 780;
+  font-size: 58.5966px;
+  line-height: 69px;
+}
+
+.currentStatsName{
+  padding-top: 10px;
+  color: #FFF;
+  font-style: normal;
+  font-weight: 0;
+  font-size: 18.3114px;
+  line-height: 21px;
+}
+
+.lowerCurrent{
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 43px;
+  padding-right: 70px;
+  padding-top: 40px;
+}
+
+.currentStatsWeather{
+  color: #FFF;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.currentStatsIcon{
+  transform: scale(1.8);
+}
+
+.weeklyContent{
+  font-family: 'Baloo 2', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 100%;
+  width: 90%;
+}
+
+.dailyIcon{
+  width: 20%;
+  transform: scale(0.9);
+}
+
+.next1{
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+  align-items: center;
+}

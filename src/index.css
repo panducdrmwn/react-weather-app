@@ -1,13 +1,158 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: 'roboto', sans-serif;
+}
+
+.App{
+  
+  background-image: linear-gradient(180deg, #532DA4 25.41%, #140633 100%);
+  width: 375px;
+  height: 811px;
+}
+
+
+.App .search {
+  padding-top: 35px;  
+  padding-left: 35px;
+  display: flex;
+  position: relative;
+}
+
+.search .search-bar, textarea:focus, .search-bar:focus{
+  width: 14rem;
+  padding: 0.4rem 1.5rem;
+  font-size: 1.rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  color: #FFF;
+}
+
+.search .button-icon{
+  max-height: 30px;
+  max-width: 30px;
+  left: 85%;
+  top: 55%;
+  position: absolute;
+ }
+
+::placeholder{ 
+  color: white;
+}
+
+.weatherbox {
+  background: linear-gradient(105.11deg, #D06CFF 11.44%, rgba(135, 58, 171, 0.94) 110.54%);
+  box-shadow: 5.49343px 18.3114px 27.4672px #7B2BA0;
+  border-radius: 36.6229px;
+  width: 239px;
+  height: 320px;
+  margin: auto;
+  margin-top: 28%
+}
+
+.weatherboxContainer{
+  width: 100%;
+  height: 100%;
+}
+
+.city {
+  padding-top: 18%;
+  padding-left: 12%;
+  font-style: normal;
+  font-weight: 380;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFF;
+}
+
+.weather-icon{
+  position: absolute;
+  z-index: 1000;
+  padding-left: 5.5rem;
+  padding-top: 1rem;
+  transform: scale(2.2);
+  
+}
+
+.weatherbox .date {
+  text-align: center;
+  padding-top: 18%;
+  color: #FFF;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.weatherbox .temp {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 4rem;
+  padding-left: 1.5rem;
+  color: #FFF;
+  font-weight: 7;
+  font-size: 59px;
+  line-height: 68px;
+}
+
+.weather{
+  
+  padding-left: 20%;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFF; 
+}
+
+.butContainer{
+  text-align: center;
+  margin-top: 1rem
+}
+
+.viewStats{
+  width: 192px;
+  height: 67px;
+  background: linear-gradient(105.11deg, #D06CFF 11.44%, rgba(135, 58, 171, 0.94) 110.54%);
+  box-shadow: 5.49343px 18.3114px 27.4672px #7B2BA0;
+  backdrop-filter: blur(45.7786px);
+  border-radius: 36.6229px;
+  color:#FFF;
+  border: none;
+}
+
+.localTime{
+  
+  
+  color: #FFF;
+
+  font-size: 20px;
+}
+
+@keyframes blinkingText{
+  0%{     color: #fff;    }
+  49%{    color: #FFF; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #FFF;    }
+}
+
+.bot{
+  margin-top: 7.5rem;
+}
+
+.bot .botcontent{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  width: 80%; 
+  margin: 3rem 2.5rem;
+  padding:1rem;
+  text-align: center;
+  color: #FFF;
+  font-size: 10px;
 }
