@@ -11,10 +11,12 @@ body{
   font-family: 'roboto', sans-serif;
 }
 
+@media screen and (max-width: 480px) {
 .forecast{
   background-image: linear-gradient(180deg, #532DA4 25.41%, #140633 100%);
-  width: 375px;
-  height: 811.59px;
+  width: 100%;
+  height: 830px;
+}
 }
 
 .backButton{

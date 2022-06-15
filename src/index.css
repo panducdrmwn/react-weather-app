@@ -11,11 +11,19 @@ body{
   font-family: 'roboto', sans-serif;
 }
 
+@media screen and (max-width: 480px) {
 .App{
-  
   background-image: linear-gradient(180deg, #532DA4 25.41%, #140633 100%);
-  width: 375px;
-  height: 811px;
+  width: 100%;
+  height: 830px;
+}
+.weatherbox{
+  width: 60%;
+  height: 320px;
+}
+.bot{
+  margin-top:30%;
+}
 }
 
 
@@ -52,8 +60,8 @@ body{
   background: linear-gradient(105.11deg, #D06CFF 11.44%, rgba(135, 58, 171, 0.94) 110.54%);
   box-shadow: 5.49343px 18.3114px 27.4672px #7B2BA0;
   border-radius: 36.6229px;
-  width: 239px;
-  height: 320px;
+  
+  
   margin: auto;
   margin-top: 28%
 }
@@ -84,7 +92,7 @@ body{
 
 .weatherbox .date {
   text-align: center;
-  padding-top: 18%;
+  padding-top: 20%;
   color: #FFF;
   font-weight: 300;
   font-size: 14px;
@@ -125,11 +133,8 @@ body{
   border: none;
 }
 
-.localTime{
-  
-  
+.localTime{ 
   color: #FFF;
-
   font-size: 20px;
 }
 
@@ -141,11 +146,9 @@ body{
   100%{   color: #FFF;    }
 }
 
-.bot{
-  margin-top: 7.5rem;
-}
 
-.bot .botcontent{
+
+.botcontent{
   display: block;
   display: flex;
   justify-content: space-between;
