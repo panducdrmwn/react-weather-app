@@ -17,10 +17,11 @@ npm start
 
 I uses a number of open source projects to work properly:
 
+This project is deployed with Netlify.
 I used https://openweathermap.org/api API for this project. 
 
 - [ReactJs](https://react.dev/learn) - ReactJS features and API.
-
+  
 
 Well, I guess that's about it! Thank you for visiting. I'd love to connect more with you! Email me at panducd.09@gmail.com and find me on Linkedin! [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/pandu-cakrawala-darmawan/)  . Cheers!🥂
 
